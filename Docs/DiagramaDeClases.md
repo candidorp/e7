@@ -1,3 +1,6 @@
+```mermaid
+
+
 classDiagram
     class Produto{
         -nome : String
@@ -15,3 +18,5 @@ classDiagram
         +calcularTotal():Double
         +getNumeroProdutos():Int
     }
+    CarrinhoCompra "1" --> "*" Produto : Contiene
+```
